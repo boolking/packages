@@ -29,7 +29,7 @@ include $(INCLUDE_DIR)/nls.mk
 define Package/lcdgrilo
   SECTION:=multimedia
   CATEGORY:=Multimedia
-  DEPENDS:=+grilo +grilo-plugins +libgee +libgstreamer1
+  DEPENDS:=+grilo +grilo-plugins +libgee +libgstreamer1 +check
   TITLE:=lcdgrilo
   URL:=http://www.flyn.org/projects/lcdgrilo/
 endef
